@@ -3,48 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hotel Menu</title>
-    <link rel="stylesheet" href="subhash.css">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to Our Hotel</h1>
-        <nav>
-            <ul>
-                <li><a href="#rooms">Rooms</a></li>
-                <li><a href="#dining">Dining</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="rooms">
-            <h2>Rooms</h2>
-            <img src="room.png" alt="Luxurious Room">
-            <p>Explore our range of luxurious rooms and suites.</p>
-            <!-- Add more content here -->
-        </section>
-        <section id="dining">
-            <h2>Dining</h2>
-            <img src="dinning.png" alt="Dining Experience">
-            <p>Discover our exquisite dining options.</p>
-            <!-- Add more content here -->
-        </section>
-        <section id="services">
-            <h2>Services</h2>
-            <img src="services.png" alt="Hotel Services">
-            <p>Learn about the additional services we offer.</p>
-            <!-- Add more content here -->
-        </section>
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <p>Get in touch with us for bookings or inquiries.</p>
-            <!-- Add more content here -->
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 Our Hotel. All rights reserved.</p>
-    </footer>
+    <div class="container">
+        <h1>To-Do List</h1>
+        <input type="text" id="task-input" placeholder="Add a new task...">
+        <button id="add-task-btn">Add Task</button>
+        <ul id="task-list"></ul>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>

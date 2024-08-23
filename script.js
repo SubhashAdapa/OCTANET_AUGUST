@@ -1,3 +1,4 @@
+script.js
 document.getElementById('add-task-btn').addEventListener('click', function() {
     const taskInput = document.getElementById('task-input');
     const taskText = taskInput.value.trim();
